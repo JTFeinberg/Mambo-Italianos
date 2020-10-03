@@ -3,7 +3,18 @@ import { Link } from 'gatsby';
 import styled from 'styled-components';
 
 const NavStyles = styled.nav`
-  background: blue;
+  margin-bottom: 3rem;
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr auto 1fr 1fr;
+    grid-gap: 2rem;
+    align-items: center;
+  }
 `;
 
 export default function Nav() {
