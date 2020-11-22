@@ -43,6 +43,10 @@ const NavStyles = styled.nav`
     &:hover {
       color: var(--red);
     }
+    /* sets curent page in nav to red */
+    /* &[aria-current='page'] {
+      color: var(--red);
+    } */
   }
 `;
 
