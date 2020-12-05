@@ -3,4 +3,5 @@ export default {
   name: 'pizza',
   // Visible Title
   title: 'Pizzas',
+  type: 'document',
 };
